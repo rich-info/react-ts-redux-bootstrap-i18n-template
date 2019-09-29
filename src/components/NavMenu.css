@@ -1,0 +1,47 @@
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+  }
+  
+  html {
+    font-size: 14px;
+  }
+  @media (min-width: 768px) {
+    html {
+      font-size: 16px;
+    }
+  }
+  
+  .box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+  }
+  
+
+  .flag-icon-background {
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+  }
+  .flag-icon {
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    position: relative;
+    display: inline-block;
+    width: 1.33333333em;
+    line-height: 1em;
+  }
+  .flag-icon:before {
+    content: "\00a0";
+  }
+  .flag-icon.flag-icon-squared {
+    width: 1em;
+  }
+  
+  .flag-icon-de {
+    background-image: url(../assets/img/de.svg);
+  }
+  .flag-icon-gb {
+    background-image: url(../assets/img/gb.svg);
+  }

@@ -1,0 +1,12 @@
+{
+    "menuHome": "Home",
+    "menuRestCall": "REST Demo",
+    "menuAbout": "About",
+    "titleHome": "A multipurpose template for react web applications",
+    "titleRestCall": "REST Call Demo",
+    "titleAbout": "About",
+    "withWordBig": "With",
+    "MoreWordBig": "More",
+    "MoreInfo": "More info",
+    "username": "Usuario: {{username}}"
+}

@@ -1,0 +1,12 @@
+{
+    "menuHome": "Startseite",
+    "menuRestCall": "REST Demo",
+    "menuAbout": "Über",
+    "titleHome": "Eine vielseitige Vorlage für React Webanwendungen",
+    "titleRestCall": "REST Api Aufruf Demo",
+    "titleAbout": "Über",
+    "withWordBig": "Mit",
+    "MoreWordBig": "Mehr",
+    "MoreInfo": "Mehr Informationen",
+    "username": "Benutzer: {{username}}"
+}
