@@ -1,6 +1,10 @@
 # react-ts-redux-bootstrap-i18-template
 A multipurpose template for react web applications with the most important components.
 
+## Demo
+[See the demo here](https://rich-info.github.io/react-ts-redux-bootstrap-i18n-template/ "Demo")
+
+
 ## Contains
 
 * TypeScript
@@ -21,6 +25,11 @@ A multipurpose template for react web applications with the most important compo
 * Multilingual portals
 * Multilingual enterprise-class solutions 
 
+## Screenshots
+Start page:
+![Screenshot1](https://github.com/rich-info/react-ts-redux-bootstrap-i18n-template/blob/master/src/assets/img/screenshot_home.png "Home page")
+Api call page
+![Screenshot2](https://github.com/rich-info/react-ts-redux-bootstrap-i18n-template/blob/master/src/assets/img/screenshot_api_call.png "Api Call")
 
 ## Development
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
