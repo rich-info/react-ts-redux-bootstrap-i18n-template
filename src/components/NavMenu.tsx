@@ -34,18 +34,18 @@ class NavMenu extends React.Component<any, any> {
             <header>
                 <Navbar className="navbar-expand-sm navbar-dark bg-dark navbar-toggleable-sm border-bottom box-shadow mb-3" dark >
                     <Container>
-                        <NavbarBrand tag={Link} to="/">React TypeScript</NavbarBrand>
+                        <NavbarBrand tag={Link} to="Home">React TypeScript</NavbarBrand>
                         <NavbarToggler onClick={this.toggle} className="mr-2" />
                         <Collapse className="d-sm-inline-flex flex-sm-row-reverse" isOpen={this.state.isOpen} navbar>
                             <ul className="navbar-nav flex-grow">
                                 <NavItem>
-                                    <NavLink tag={Link} className="text-light" to="/"><FontAwesomeIcon icon={faHome} /> {t("menuHome")}</NavLink>
+                                    <NavLink tag={Link} className="text-light" to="Home"><FontAwesomeIcon icon={faHome} /> {t("menuHome")}</NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink tag={Link} className="text-light" to="/RestCall"><FontAwesomeIcon icon={faGlobe} /> {t("menuRestCall")}</NavLink>
+                                    <NavLink tag={Link} className="text-light" to="RestCall"><FontAwesomeIcon icon={faGlobe} /> {t("menuRestCall")}</NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink tag={Link} className="text-light" to="/About"><FontAwesomeIcon icon={faInfoCircle} /> {t("menuAbout")}</NavLink>
+                                    <NavLink tag={Link} className="text-light" to="About"><FontAwesomeIcon icon={faInfoCircle} /> {t("menuAbout")}</NavLink>
                                 </NavItem>
                                 <form className="form-inline">
                                     <button className="btn btn-sm btn-outline-secondary" type="button" onClick={e => changeLanguage("de")}>
